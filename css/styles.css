@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    opacity: 70%;
+    width: 100vw;
+    height: 10vh;
+    border-radius: 5px;
+}
+.navbar {
+    color: whitesmoke;
+    display: inline;
+    padding-right: 3em;
+    padding-top: 1.5em;
+    font-size: 1.5em;
+    
+}
+
+nav > div {
+    padding-right: 10em;
+    padding: 1.5em;
+}
+.nameLogo {
+    color: whitesmoke;
+    justify-content: flex-start;
+    margin-right: 50em;
+    padding-top: 1.5em;
+}
+.content {
+    display: flex;
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 80vh;
+}
+footer {
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    padding-bottom: 0;
+    opacity: 70%;
+}
